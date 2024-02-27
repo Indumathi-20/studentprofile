@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          margin: 0;
+          padding: 0;
+        }
+        .container {
+          width: 80%;
+          margin: 50px auto;
+          background: white;
+          padding: 50px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          
+        }
+        h2 {
+          text-align: center;
+        }
+        .login-form {
+          max-width: 400px;
+          margin: 0 auto;
+        }
+        .form-group {
+          margin-bottom: 30px;
+        }
+        .form-group label {
+          display: block;
+          margin-bottom: 5px;
+        }
+        .form-group input {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+        .btn {
+          display: block;
+          width: 100%;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          background-color: white;
+          color: grey;
+          cursor: pointer;
+        }
+        .btn:hover {
+          background-color: white;
+        }
+        .nav {
+          text-align: center;
+          margin-top: 20px;
+          
+        }
+        .nav a {
+          margin: 0 10px;
+          text-decoration: none;
+          color: #007bff;
+        }
+        .nav a:hover {
+          text-decoration: underline;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        
+        <div class="nav">
+           
+          <a href="home.html">Home</a>
+          <a href="New Student.html">New Student</a>
+          <a href="modify.html">Modify</a>
+          <a href="remove.html">Remove</a>
+          <a href="read.php">View</a>
+        </div>
+      </div>
+
+      <center>
+        <form action="Up.php" method="post">
+            <h3>Modify Your Details
+                <hr>
+            </h3>
+            Student ID     : <input type="text" name="SID"> <br> <br>
+            Student Name   : <input type="text" name="SNAME"> <br> <br>
+            Student Number  : <input type="text" name="SNUM"> <br> <br>
+            Student Address: <input type="text" name="SADR"> <br> <br>
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button>
+        </form>
+    </center>
+</body>
+
+</html>
+    </body>
+    </html>
+    
